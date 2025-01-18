@@ -1,4 +1,3 @@
-
 - name: Check if yay folder exists
   stat:
     path: $HOME/yay

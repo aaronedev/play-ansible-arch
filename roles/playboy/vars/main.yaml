@@ -1,7 +1,7 @@
-username: igortxra
+username: psy
 
 dotfiles:
-  url: https://github.com/igortxra/dotfiles.git
+  url: https://github.com/aaronedev/dotfiles.git
 
 git_clones:
   - name: Zsh Autosuggestions
@@ -46,8 +46,8 @@ packages:
   - git
 
   # Screen Configuration
-  - arandr
-  - autorandr
+  # - arandr
+  # - autorandr
 
   # Wallpapers
   - feh
@@ -73,11 +73,11 @@ packages:
   - dmenu
 
   # Compositor
-  - picom
+  # - picom
 
   # Browser
   - qutebrowser
-  - google-chrome # AUR
+  # - google-chrome # AUR
 
   # File Manager
   - thunar
@@ -91,10 +91,10 @@ packages:
   - dunst
 
   # Themes
-  - lxappearance
-  - dracula-gtk-theme # AUR
-  - dracula-icons-git # AUR
-  - dracula-cursors-git # AUR
+  # - lxappearance
+  # - dracula-gtk-theme # AUR
+  # - dracula-icons-git # AUR
+  # - dracula-cursors-git # AUR
 
   # Fonts
   - ttf-iosevka-nerd
@@ -104,8 +104,8 @@ packages:
   - xorg-fonts-75dpi
 
   # Clipboard
-  - xclip
-  - rofi-greenclip # AUR
+  # - xclip
+  # - rofi-greenclip # AUR
 
   # Automations
   - ansible
@@ -113,7 +113,7 @@ packages:
 
   # Utils
   - tldr
-  - batify # AUR
+  # - batify # AUR
   - htop
   - btop
   - fzf
@@ -122,10 +122,10 @@ packages:
   - unzip
   - ripgrep
   - archey3
-  - numlockx
+  # - numlockx
   - alsa-utils
-  - nodejs
-  - npm
+  # - nodejs
+  # - npm
   - python-dbus-next
   - python-psutil
   - zram-generator
@@ -137,10 +137,10 @@ packages:
   - docker
   - neovim
   - github-cli
-  - asdf-vm # AUR
-  - kubectl
-  - kind
+  # - asdf-vm # AUR
+  # - kubectl
+  # - kind
 
   # Personal Needs
   - discord
-  - spotify-launcher
+  # - spotify-launcher

@@ -13,6 +13,6 @@
     depth: "{{ item.item.depth }}"
     version: "{{ item.item.version }}"
   loop: "{{ destination.results }}"
-  when: not item.stat.exists 
+  when: not item.stat.exists
   become: true
   become_user: "{{ username }}"
